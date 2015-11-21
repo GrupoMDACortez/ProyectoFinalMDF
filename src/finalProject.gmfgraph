@@ -191,6 +191,9 @@
       name="Herencia"
       figure="HerenciaFigure"/>
   <compartments
+      name="ConstantesInterfacesFigure"
+      figure="InterfaceFigure"/>
+  <compartments
       name="OperacionCompartment"
       figure="ClaseFigure"/>
   <compartments
