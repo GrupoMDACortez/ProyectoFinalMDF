@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/FinalProject/src" modelPluginID="FinalProject"
+    modelName="FinalProject" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>metamodel/SimilUML.ecore</foreignModel>
+  <genPackages prefix="Similuml" disposableProviderFactory="true" ecorePackage="SimilUML.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SimilUML.ecore#//Tipo_Predefinido_Retorno">
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/int"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/float"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/char"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/boolean"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/String"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/double"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido_Retorno/void"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SimilUML.ecore#//Tipo_Visibilidad">
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Visibilidad/private"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Visibilidad/public"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Visibilidad/package"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Visibilidad/protected"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SimilUML.ecore#//Tipo_Predefinido">
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/int"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/float"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/char"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/boolean"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/String"/>
+      <genEnumLiterals ecoreEnumLiteral="SimilUML.ecore#//Tipo_Predefinido/double"/>
+    </genEnums>
+    <genClasses ecoreClass="SimilUML.ecore#//DiagramaClases">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//DiagramaClases/nombre"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/interfaces_del_Diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/clases_del_Diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/realizaciones_del_Diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/Herencias_del_Diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/asociaciones_del_diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/agregaciones_del_diagrama"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//DiagramaClases/composiciones_del_diagrama"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Interface">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Interface/nombre"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Interface/operaciones_iterfaces"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Interface/contantes_Interfaces"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Interface/herenciasInterfaz_contenidas"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Clase">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Clase/nombre"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/operaciones_clases"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/atributos_clases"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Clase/esAbstracta"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/asociaciones_contenidas"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/composiciones_contenidas"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/agregaciones_contenidas"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/realizacion_contenida"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Clase/herenciasClases_contenidas"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Asociacion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Asociacion/desdeClaseaInterfaz"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Asociacion/haciaInterfazdesdeClase"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Agregacion"/>
+    <genClasses ecoreClass="SimilUML.ecore#//Relacion">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Relacion/nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Relacion/cardinalidadInferior"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Relacion/cardinalidadSuperior"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Relacion/origen"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Relacion/destino"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Composicion"/>
+    <genClasses ecoreClass="SimilUML.ecore#//Operacion">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Operacion/nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Operacion/tipo_retorno"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Operacion/parametros_contenidos"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Operacion/esAbstracto"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Operacion/visibilidad"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Atributo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Atributo/nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Atributo/tipo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Atributo/visibilidad"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Parametro">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Parametro/nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Parametro/tipo"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Realizacion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Realizacion/origenRealizacion"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Realizacion/destinoRealizacion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Realizacion/nombre"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//Herencia">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Herencia/herenciaClase_Origen"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Herencia/hereda_Clase_Destino"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Herencia/hereda_Interfaz_Origen"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SimilUML.ecore#//Herencia/hereda_Interfaz_destino"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//Herencia/nombre"/>
+    </genClasses>
+    <genClasses ecoreClass="SimilUML.ecore#//ConstantesInterfaces">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//ConstantesInterfaces/nombre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SimilUML.ecore#//ConstantesInterfaces/tipo"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
