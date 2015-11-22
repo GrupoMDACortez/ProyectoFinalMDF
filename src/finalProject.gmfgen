@@ -24,40 +24,15 @@
     <domainDiagramElement
         href="finalProject.genmodel#//similuml/DiagramaClases"/>
     <childNodes
-        visualID="3001"
-        editPartClassName="OperacionEditPart"
-        itemSemanticEditPolicyClassName="OperacionItemSemanticEditPolicy"
-        canonicalEditPolicyClassName="OperacionCanonicalEditPolicy"
-        graphicalNodeEditPolicyClassName="OperacionGraphicalNodeEditPolicy"
-        createCommandClassName="OperacionCreateCommand"
-        containers="//@diagram/@compartments.0">
-      <diagramRunTimeClass
-          href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
-      <elementType
-          xsi:type="gmfgen:MetamodelType"
-          editHelperClassName="OperacionEditHelper"/>
-      <viewmap
-          xsi:type="gmfgen:ModeledViewmap">
-        <figureModel
-            href="finalProject.gmfgraph#OperacionNombre"/>
-      </viewmap>
-      <modelFacet>
-        <metaClass
-            href="finalProject.genmodel#//similuml/Operacion"/>
-        <containmentMetaFeature
-            href="finalProject.genmodel#//similuml/Clase/operaciones_clases"/>
-        <childMetaFeature
-            href="finalProject.genmodel#//similuml/Clase/operaciones_clases"/>
-      </modelFacet>
-    </childNodes>
-    <childNodes
+        xsi:type="gmfgen:GenChildLabelNode"
         visualID="3002"
         editPartClassName="AtributoEditPart"
         itemSemanticEditPolicyClassName="AtributoItemSemanticEditPolicy"
         canonicalEditPolicyClassName="AtributoCanonicalEditPolicy"
         graphicalNodeEditPolicyClassName="AtributoGraphicalNodeEditPolicy"
         createCommandClassName="AtributoCreateCommand"
-        containers="//@diagram/@compartments.1">
+        containers="//@diagram/@compartments.0"
+        labelElementIcon="true">
       <diagramRunTimeClass
           href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
       <elementType
@@ -76,6 +51,47 @@
         <childMetaFeature
             href="finalProject.genmodel#//similuml/Clase/atributos_clases"/>
       </modelFacet>
+      <labelModelFacet
+          xsi:type="gmfgen:FeatureLabelModelFacet"
+          parser="//@labelParsers/@implementations.0">
+        <metaFeatures
+            href="finalProject.genmodel#//similuml/Atributo/nombre"/>
+      </labelModelFacet>
+    </childNodes>
+    <childNodes
+        xsi:type="gmfgen:GenChildLabelNode"
+        visualID="3001"
+        editPartClassName="OperacionEditPart"
+        itemSemanticEditPolicyClassName="OperacionItemSemanticEditPolicy"
+        canonicalEditPolicyClassName="OperacionCanonicalEditPolicy"
+        graphicalNodeEditPolicyClassName="OperacionGraphicalNodeEditPolicy"
+        createCommandClassName="OperacionCreateCommand"
+        containers="//@diagram/@compartments.1"
+        labelElementIcon="true">
+      <diagramRunTimeClass
+          href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType
+          xsi:type="gmfgen:MetamodelType"
+          editHelperClassName="OperacionEditHelper"/>
+      <viewmap
+          xsi:type="gmfgen:ModeledViewmap">
+        <figureModel
+            href="finalProject.gmfgraph#OperacionNombre"/>
+      </viewmap>
+      <modelFacet>
+        <metaClass
+            href="finalProject.genmodel#//similuml/Operacion"/>
+        <containmentMetaFeature
+            href="finalProject.genmodel#//similuml/Clase/operaciones_clases"/>
+        <childMetaFeature
+            href="finalProject.genmodel#//similuml/Clase/operaciones_clases"/>
+      </modelFacet>
+      <labelModelFacet
+          xsi:type="gmfgen:FeatureLabelModelFacet"
+          parser="//@labelParsers/@implementations.0">
+        <metaFeatures
+            href="finalProject.genmodel#//similuml/Operacion/nombre"/>
+      </labelModelFacet>
     </childNodes>
     <topLevelNodes
         visualID="2001"
@@ -432,28 +448,10 @@
     </links>
     <compartments
         visualID="7001"
-        editPartClassName="ClaseOperacionCompartmentEditPart"
-        itemSemanticEditPolicyClassName="ClaseOperacionCompartmentItemSemanticEditPolicy"
-        canonicalEditPolicyClassName="ClaseOperacionCompartmentCanonicalEditPolicy"
-        childNodes="//@diagram/@childNodes.0"
-        title="OperacionCompartment"
-        canCollapse="false"
-        needsTitle="false"
-        node="//@diagram/@topLevelNodes.0">
-      <diagramRunTimeClass
-          href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
-      <viewmap
-          xsi:type="gmfgen:ModeledViewmap">
-        <figureModel
-            href="finalProject.gmfgraph#OperacionCompartment"/>
-      </viewmap>
-    </compartments>
-    <compartments
-        visualID="7002"
         editPartClassName="ClaseAtributoCompartmentEditPart"
         itemSemanticEditPolicyClassName="ClaseAtributoCompartmentItemSemanticEditPolicy"
         canonicalEditPolicyClassName="ClaseAtributoCompartmentCanonicalEditPolicy"
-        childNodes="//@diagram/@childNodes.1"
+        childNodes="//@diagram/@childNodes.0"
         title="AtributoCompartment"
         canCollapse="false"
         needsTitle="false"
@@ -464,6 +462,24 @@
           xsi:type="gmfgen:ModeledViewmap">
         <figureModel
             href="finalProject.gmfgraph#AtributoCompartment"/>
+      </viewmap>
+    </compartments>
+    <compartments
+        visualID="7002"
+        editPartClassName="ClaseOperacionCompartmentEditPart"
+        itemSemanticEditPolicyClassName="ClaseOperacionCompartmentItemSemanticEditPolicy"
+        canonicalEditPolicyClassName="ClaseOperacionCompartmentCanonicalEditPolicy"
+        childNodes="//@diagram/@childNodes.1"
+        title="OperacionCompartment"
+        canCollapse="false"
+        needsTitle="false"
+        node="//@diagram/@topLevelNodes.0">
+      <diagramRunTimeClass
+          href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap
+          xsi:type="gmfgen:ModeledViewmap">
+        <figureModel
+            href="finalProject.gmfgraph#OperacionCompartment"/>
       </viewmap>
     </compartments>
     <palette>
@@ -500,12 +516,12 @@
             xsi:type="gmfgen:ToolEntry"
             title="Operacion"
             description="Create new Operacion"
-            genNodes="//@diagram/@childNodes.0"/>
+            genNodes="//@diagram/@childNodes.1"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Atributo"
             description="Create new Atributo"
-            genNodes="//@diagram/@childNodes.1"/>
+            genNodes="//@diagram/@childNodes.0"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Parametro"
@@ -743,7 +759,7 @@
       extensibleViaService="true">
     <implementations
         xsi:type="gmfgen:PredefinedParser"
-        uses="//@diagram/@topLevelNodes.0/@labels.0/@modelFacet //@diagram/@topLevelNodes.1/@labels.0/@modelFacet //@diagram/@links.0/@labels.0/@modelFacet //@diagram/@links.1/@labels.0/@modelFacet //@diagram/@links.2/@labels.0/@modelFacet //@diagram/@links.3/@labels.0/@modelFacet //@diagram/@links.4/@labels.0/@modelFacet"/>
+        uses="//@diagram/@childNodes.0/@labelModelFacet //@diagram/@childNodes.1/@labelModelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet //@diagram/@topLevelNodes.1/@labels.0/@modelFacet //@diagram/@links.0/@labels.0/@modelFacet //@diagram/@links.1/@labels.0/@modelFacet //@diagram/@links.2/@labels.0/@modelFacet //@diagram/@links.3/@labels.0/@modelFacet //@diagram/@links.4/@labels.0/@modelFacet"/>
   </labelParsers>
   <contextMenus
       context="//@diagram">
