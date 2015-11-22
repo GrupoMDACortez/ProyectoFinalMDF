@@ -501,6 +501,8 @@
             xsi:type="gmfgen:ToolEntry"
             title="Asociacion"
             description="Create new Asociacion"
+            largeIconPath="/ProyectoFinalMDF/iconos/Asociacion.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Asociacion.gif"
             genLinks="//@diagram/@links.4"/>
         <entries
             xsi:type="gmfgen:ToolEntry"

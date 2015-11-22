@@ -36,9 +36,13 @@
           title="Asociacion"
           description="Create new Asociacion">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Asociacion.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Asociacion.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
