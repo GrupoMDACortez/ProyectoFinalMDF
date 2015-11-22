@@ -21,30 +21,23 @@
       </labelMappings>
       <tool
           xsi:type="gmftool:CreationTool"
-          href="finalProject.gmftool#//@palette/@tools.0/@tools.0"/>
+          href="finalProject.gmftool#//@palette/@tools.0/@tools.1"/>
       <diagramNode
           href="finalProject.gmfgraph#Clase"/>
       <children
           compartment="//@nodes.0/@ownedChild/@compartments.0">
         <containmentFeature
-            href="SimilUML.ecore#//Clase/operaciones_clases"/>
-        <ownedChild>
-          <domainMetaElement
-              href="SimilUML.ecore#//Operacion"/>
-          <tool
-              xsi:type="gmftool:CreationTool"
-              href="finalProject.gmftool#//@palette/@tools.0/@tools.5"/>
-          <diagramNode
-              href="finalProject.gmfgraph#OperacionNombre"/>
-        </ownedChild>
-      </children>
-      <children
-          compartment="//@nodes.0/@ownedChild/@compartments.1">
-        <containmentFeature
             href="SimilUML.ecore#//Clase/atributos_clases"/>
         <ownedChild>
           <domainMetaElement
               href="SimilUML.ecore#//Atributo"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="finalProject.gmfgraph#AtributoNombre"/>
+            <features
+                href="SimilUML.ecore#//Atributo/nombre"/>
+          </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
               href="finalProject.gmftool#//@palette/@tools.0/@tools.6"/>
@@ -52,15 +45,36 @@
               href="finalProject.gmfgraph#AtributoNombre"/>
         </ownedChild>
       </children>
+      <children
+          compartment="//@nodes.0/@ownedChild/@compartments.1">
+        <containmentFeature
+            href="SimilUML.ecore#//Clase/operaciones_clases"/>
+        <ownedChild>
+          <domainMetaElement
+              href="SimilUML.ecore#//Operacion"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="finalProject.gmfgraph#OperacionNombre"/>
+            <features
+                href="SimilUML.ecore#//Operacion/nombre"/>
+          </labelMappings>
+          <tool
+              xsi:type="gmftool:CreationTool"
+              href="finalProject.gmftool#//@palette/@tools.0/@tools.5"/>
+          <diagramNode
+              href="finalProject.gmfgraph#OperacionNombre"/>
+        </ownedChild>
+      </children>
       <compartments
           children="//@nodes.0/@ownedChild/@children.0">
         <compartment
-            href="finalProject.gmfgraph#OperacionCompartment"/>
+            href="finalProject.gmfgraph#AtributoCompartment"/>
       </compartments>
       <compartments
           children="//@nodes.0/@ownedChild/@children.1">
         <compartment
-            href="finalProject.gmfgraph#AtributoCompartment"/>
+            href="finalProject.gmfgraph#OperacionCompartment"/>
       </compartments>
     </ownedChild>
   </nodes>
@@ -79,7 +93,7 @@
       </labelMappings>
       <tool
           xsi:type="gmftool:CreationTool"
-          href="finalProject.gmftool#//@palette/@tools.0/@tools.1"/>
+          href="finalProject.gmftool#//@palette/@tools.0/@tools.0"/>
       <diagramNode
           href="finalProject.gmfgraph#Interface"/>
     </ownedChild>
@@ -98,7 +112,7 @@
         href="SimilUML.ecore#//Interface/herenciasInterfaz_contenidas"/>
     <tool
         xsi:type="gmftool:CreationTool"
-        href="finalProject.gmftool#//@palette/@tools.0/@tools.10"/>
+        href="finalProject.gmftool#//@palette/@tools.0/@tools.9"/>
     <diagramLink
         href="finalProject.gmfgraph#Herencia"/>
     <sourceMetaFeature
@@ -122,7 +136,7 @@
         href="SimilUML.ecore#//Clase/composiciones_contenidas"/>
     <tool
         xsi:type="gmftool:CreationTool"
-        href="finalProject.gmftool#//@palette/@tools.0/@tools.0"/>
+        href="finalProject.gmftool#//@palette/@tools.0/@tools.4"/>
     <diagramLink
         href="finalProject.gmfgraph#Composicion"/>
     <sourceMetaFeature
@@ -146,7 +160,7 @@
         href="SimilUML.ecore#//Clase/agregaciones_contenidas"/>
     <tool
         xsi:type="gmftool:CreationTool"
-        href="finalProject.gmftool#//@palette/@tools.0/@tools.1"/>
+        href="finalProject.gmftool#//@palette/@tools.0/@tools.3"/>
     <diagramLink
         href="finalProject.gmfgraph#Agregacion"/>
     <sourceMetaFeature
@@ -170,7 +184,7 @@
         href="SimilUML.ecore#//Clase/realizacion_contenida"/>
     <tool
         xsi:type="gmftool:CreationTool"
-        href="finalProject.gmftool#//@palette/@tools.0/@tools.2"/>
+        href="finalProject.gmftool#//@palette/@tools.0/@tools.8"/>
     <diagramLink
         href="finalProject.gmfgraph#Realizacion"/>
     <sourceMetaFeature
@@ -186,7 +200,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#AsociacionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
@@ -194,7 +208,7 @@
         href="SimilUML.ecore#//Clase/asociaciones_contenidas"/>
     <tool
         xsi:type="gmftool:CreationTool"
-        href="finalProject.gmftool#//@palette/@tools.0/@tools.3"/>
+        href="finalProject.gmftool#//@palette/@tools.0/@tools.2"/>
     <diagramLink
         href="finalProject.gmfgraph#Asociacion"/>
     <sourceMetaFeature

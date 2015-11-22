@@ -10,7 +10,7 @@
       <!-- @generated finalProject -->
       <package
             uri="http://similuml/1.0"
-            class="similuml.SimilumlPackage"
+            class="proyectofinalmdf.similuml.SimilumlPackage"
             genModel="src/finalProject.genmodel"/>
    </extension>
 
