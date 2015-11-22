@@ -478,6 +478,8 @@
             xsi:type="gmfgen:ToolEntry"
             title="Clase"
             description="Create new Clase"
+            largeIconPath="/ProyectoFinalMDF/iconos/Clase.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Clase.gif"
             genNodes="//@diagram/@topLevelNodes.0"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
