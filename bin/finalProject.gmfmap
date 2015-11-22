@@ -186,7 +186,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#AsociacionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
