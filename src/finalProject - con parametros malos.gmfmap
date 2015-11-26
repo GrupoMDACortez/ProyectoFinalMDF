@@ -64,6 +64,34 @@
               href="finalProject.gmftool#//@palette/@tools.0/@tools.5"/>
           <diagramNode
               href="finalProject.gmfgraph#OperacionNombre"/>
+          <children
+              compartment="//@nodes.0/@ownedChild/@children.1/@ownedChild/@compartments.0">
+            <containmentFeature
+                href="SimilUML.ecore#//Operacion/parametros_contenidos"/>
+            <ownedChild>
+              <domainMetaElement
+                  href="SimilUML.ecore#//Parametro"/>
+              <labelMappings
+                  xsi:type="gmfmap:FeatureLabelMapping">
+                <diagramLabel
+                    href="finalProject.gmfgraph#ParametroNombre"/>
+                <features
+                    href="SimilUML.ecore#//Parametro/nombre"/>
+                <features
+                    href="SimilUML.ecore#//Parametro/tipo"/>
+              </labelMappings>
+              <tool
+                  xsi:type="gmftool:CreationTool"
+                  href="finalProject.gmftool#//@palette/@tools.0/@tools.7"/>
+              <diagramNode
+                  href="finalProject.gmfgraph#ParametroNombre"/>
+            </ownedChild>
+          </children>
+          <compartments
+              children="//@nodes.0/@ownedChild/@children.1/@ownedChild/@children.0">
+            <compartment
+                href="finalProject.gmfgraph#ParametroCompartment"/>
+          </compartments>
         </ownedChild>
       </children>
       <compartments
@@ -104,7 +132,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#HerenciaNombre"/>
+          href="finalProject.gmfgraph#OperacionNombre"/>
       <features
           href="SimilUML.ecore#//Herencia/nombre"/>
     </labelMappings>
@@ -128,7 +156,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#ComposicionNombre"/>
+          href="finalProject.gmfgraph#OperacionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
@@ -152,7 +180,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#AgregacionNombre"/>
+          href="finalProject.gmfgraph#OperacionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
@@ -176,7 +204,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#RealizacionNombre"/>
+          href="finalProject.gmfgraph#OperacionNombre"/>
       <features
           href="SimilUML.ecore#//Realizacion/nombre"/>
     </labelMappings>

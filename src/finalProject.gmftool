@@ -14,9 +14,13 @@
           title="Interface"
           description="Create new Interface">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Interface.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Interface.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
@@ -49,72 +53,104 @@
           title="Agregacion"
           description="Create new Agregacion">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Agregacion.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Agregacion.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Composicion"
           description="Create new Composicion">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Composicion.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Composicion.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Operacion"
           description="Create new Operacion">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Operacion.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Operacion.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Atributo"
           description="Create new Atributo">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Atributo.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Atributo.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Parametro"
           description="Create new Parametro">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Parametro.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Parametro.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Realizacion"
           description="Create new Realizacion">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Herencia.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Herencia.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="Herencia"
           description="Create new Herencia">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Herencia.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Herencia.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
       <tools
           xsi:type="gmftool:CreationTool"
           title="ConstantesInterfaces"
           description="Create new ConstantesInterfaces">
         <smallIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Atributo.gif"
+            bundle="ProyectoFinalMDF"/>
         <largeIcon
-            xsi:type="gmftool:DefaultImage"/>
+            xsi:type="gmftool:BundleImage"
+            path="/iconos/Atributo.gif"
+            bundle="ProyectoFinalMDF"/>
       </tools>
     </tools>
   </palette>

@@ -207,9 +207,9 @@
         <metaClass
             href="finalProject.genmodel#//similuml/Herencia"/>
         <containmentMetaFeature
-            href="finalProject.genmodel#//similuml/Interface/herenciasInterfaz_contenidas"/>
+            href="finalProject.genmodel#//similuml/Clase/herenciasClases_contenidas"/>
         <childMetaFeature
-            href="finalProject.genmodel#//similuml/Interface/herenciasInterfaz_contenidas"/>
+            href="finalProject.genmodel#//similuml/Clase/herenciasClases_contenidas"/>
         <sourceMetaFeature
             href="finalProject.genmodel#//similuml/Herencia/herenciaClase_Origen"/>
         <targetMetaFeature
@@ -228,7 +228,7 @@
               xsi:type="gmfgen:LabelOffsetAttributes"
               y="40"/>
           <figureModel
-              href="finalProject.gmfgraph#OperacionNombre"/>
+              href="finalProject.gmfgraph#HerenciaNombre"/>
         </viewmap>
         <modelFacet
             xsi:type="gmfgen:FeatureLabelModelFacet"
@@ -280,7 +280,7 @@
               xsi:type="gmfgen:LabelOffsetAttributes"
               y="40"/>
           <figureModel
-              href="finalProject.gmfgraph#OperacionNombre"/>
+              href="finalProject.gmfgraph#ComposicionNombre"/>
         </viewmap>
         <modelFacet
             xsi:type="gmfgen:FeatureLabelModelFacet"
@@ -332,7 +332,7 @@
               xsi:type="gmfgen:LabelOffsetAttributes"
               y="40"/>
           <figureModel
-              href="finalProject.gmfgraph#OperacionNombre"/>
+              href="finalProject.gmfgraph#AgregacionNombre"/>
         </viewmap>
         <modelFacet
             xsi:type="gmfgen:FeatureLabelModelFacet"
@@ -384,7 +384,7 @@
               xsi:type="gmfgen:LabelOffsetAttributes"
               y="40"/>
           <figureModel
-              href="finalProject.gmfgraph#OperacionNombre"/>
+              href="finalProject.gmfgraph#RealizacionNombre"/>
         </viewmap>
         <modelFacet
             xsi:type="gmfgen:FeatureLabelModelFacet"
@@ -489,6 +489,8 @@
             xsi:type="gmfgen:ToolEntry"
             title="Interface"
             description="Create new Interface"
+            largeIconPath="/ProyectoFinalMDF/iconos/Interface.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Interface.gif"
             genNodes="//@diagram/@topLevelNodes.1"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
@@ -508,40 +510,56 @@
             xsi:type="gmfgen:ToolEntry"
             title="Agregacion"
             description="Create new Agregacion"
+            largeIconPath="/ProyectoFinalMDF/iconos/Agregacion.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Agregacion.gif"
             genLinks="//@diagram/@links.2"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Composicion"
             description="Create new Composicion"
+            largeIconPath="/ProyectoFinalMDF/iconos/Composicion.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Composicion.gif"
             genLinks="//@diagram/@links.1"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Operacion"
             description="Create new Operacion"
+            largeIconPath="/ProyectoFinalMDF/iconos/Operacion.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Operacion.gif"
             genNodes="//@diagram/@childNodes.1"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Atributo"
             description="Create new Atributo"
+            largeIconPath="/ProyectoFinalMDF/iconos/Atributo.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Atributo.gif"
             genNodes="//@diagram/@childNodes.0"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Parametro"
-            description="Create new Parametro"/>
+            description="Create new Parametro"
+            largeIconPath="/ProyectoFinalMDF/iconos/Parametro.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Parametro.gif"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Realizacion"
             description="Create new Realizacion"
+            largeIconPath="/ProyectoFinalMDF/iconos/Herencia.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Herencia.gif"
             genLinks="//@diagram/@links.3"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Herencia"
             description="Create new Herencia"
+            largeIconPath="/ProyectoFinalMDF/iconos/Herencia.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Herencia.gif"
             genLinks="//@diagram/@links.0"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="ConstantesInterfaces"
-            description="Create new ConstantesInterfaces"/>
+            description="Create new ConstantesInterfaces"
+            largeIconPath="/ProyectoFinalMDF/iconos/Atributo.gif"
+            smallIconPath="/ProyectoFinalMDF/iconos/Atributo.gif"/>
       </groups>
     </palette>
     <preferencePages
