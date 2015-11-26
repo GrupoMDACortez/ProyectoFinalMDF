@@ -104,12 +104,12 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#HerenciaNombre"/>
       <features
           href="SimilUML.ecore#//Herencia/nombre"/>
     </labelMappings>
     <containmentFeature
-        href="SimilUML.ecore#//Interface/herenciasInterfaz_contenidas"/>
+        href="SimilUML.ecore#//Clase/herenciasClases_contenidas"/>
     <tool
         xsi:type="gmftool:CreationTool"
         href="finalProject.gmftool#//@palette/@tools.0/@tools.9"/>
@@ -128,7 +128,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#ComposicionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
@@ -152,7 +152,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#AgregacionNombre"/>
       <features
           href="SimilUML.ecore#//Relacion/nombre"/>
     </labelMappings>
@@ -176,7 +176,7 @@
     <labelMappings
         xsi:type="gmfmap:FeatureLabelMapping">
       <diagramLabel
-          href="finalProject.gmfgraph#OperacionNombre"/>
+          href="finalProject.gmfgraph#RealizacionNombre"/>
       <features
           href="SimilUML.ecore#//Realizacion/nombre"/>
     </labelMappings>
